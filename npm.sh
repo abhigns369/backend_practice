@@ -16,6 +16,4 @@ touch .gitkeep
 cd ../..
 
 git init
-git add .
-git commit -m "setup success"
 git branch -M main
