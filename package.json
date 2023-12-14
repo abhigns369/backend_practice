@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "npm test index.js",
-    "dev": "nodemon run index.js"
+    "test": "npm test src/index.js",
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
   "author": "Asdts",
@@ -17,6 +18,7 @@
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "mongodb": "^6.3.0",
     "mongoose": "^8.0.3"
   }
 }
