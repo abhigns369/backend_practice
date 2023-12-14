@@ -10,3 +10,4 @@ if [["$res" == [yY]] ];then
     git checkout -b $branch
 elif [["$res" == [nN]]]; then
     git push
+fi
